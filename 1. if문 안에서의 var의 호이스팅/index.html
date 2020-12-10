@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      if (false) {
+        var abc = 1;
+      }
+
+      // 호이스팅 한다면 다음의 결과는 "undefined"가 될꺼고
+      // 호이스팅 하지 않는 다면 Reference Error 가 뜬다.
+      console.log(abc);
+      // 비교를 위해 선언되지 않는 변수도 호출
+      console.log(cde);
+    </script>
+  </head>
+  <body></body>
+</html>
